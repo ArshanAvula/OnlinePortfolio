@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        p{
+            color:black;
+            font-size: 11;
+            margin-left: 1px;
+        }
+        button{
+            background-color:white;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        button:hover{
+            transition: transform 1s;
+            transform: scale(1.1);
+            background-color: rgb(200, 200, 200);
+        }
+        div {
+            width:33%;
+            float:left;
+        }
+        table, td, tr, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <tr>
+        <td colspan="2" style="text-align:center">
+            <div>
+                <button onclick="projectPage()">Project Page</button>
+            </div>
+            <div>
+                <h1 style="color:white;">About Me</h1>
+            </div>
+            <div>
+                <button onclick="resumePage()">Resume Page</button>
+            </div>
+        </td>
+    </tr>
+    <tr>   
+        <td>     
+        <p>My personal career goal is to be the best version of myself. What is that? I want to have a career in Artificial Intelligence and technology. I want to pursue a life where I can code to invent or redesign new things. This also connects to engineering because I want to be a software engineer, which is related to computer science. Additionally, I want to be an entrepreneur. I want to make a company where I can use technology (Computer Science & Artificial Intelligence) to solve an issue. My plan to achieve this goal is to take computer science and business classes inside of school and outside as well. I am currently doing this by joining computer science clubs, as well as a computer science elective. However, I haven't found a business club, yet. The reason I want to pursue a life filled with technology and business is because I was inspired from my parents, who are software engineers. Furthermore, when I was introduced to coding, I loved learning it. On the other hand, I wanted to start business after learning about finance and the benefits. These two are my personal career goals because they make me positive and the best person I can be.</p>
+        <br>
+        <p>I have many strengths and personal qualities relating to this career. I am a natural leader, and I can work with groups. This is important because programming requires a lot of teamwork depending on the project. Additionally, I am very responsible and reliable, which can help when there is a problem that needs to be fixed. My team, or group can rely on me if anything needs to be done. I will get the work done and be there to help them, as well. I have used these skills in clubs and classes. I have participated in many clubs, such as the Badminton Club, Artificial Intelligence Club, and many more. Recently, I have been assigned secretary of the new Table Tennis Club. I also have joined the hackathon club, to strengthen my risk-taking/competitive skills. I am also going to try out for the Swim Team. My major accomplishments from high school are mainly from clubs and my grades. Other accomplishments include my extracurricular activities outside of high school. I am on a swim team, and have been swimming since I was about 2-3 years old. However, I did take a break during the pandemic, and then resumed swimming after 1-2 years. I also take a math and English tutor/class, that strengthens my skills in those subjects. I learned a lot from these experiences throughout my life. I learned to be out-going, risk-taking, and to have fun while challenging myself. I learned to be the best version of myself. These skills and experiences stick with me for life, and I cherish each one of them.</p>
+        <br>
+        <p>Throughout my life, I have gone through many experiences. I found a passion, a vision, which was also an inspiration from my parents. What was that? Artificial Intelligence. My parents are software engineers, who introduced me to the wonders of coding. I have been taking coding electives since 7th grade (middle school), and all the way up to 9th grade. I am planning to pursue AI throughout my life in highschool and college. I want to code become associated with AI in the future. Additionally, I want a life related to business. I want to make a business/company that solves an issue using technology. My goal for this career path is to find business clubs throughout high school, or even make one. I have many strengths/qualities that connect to these two career goals. I am a natural leader, a team-player, responsible, and reliable. I have managed as a leader in many group projects, including projects related to computer science. I can cooperate with teams/groups really well, and work together responsibly. I get work done on time, and make sure that it is proper. I will be there for a team, and make sure that I am reliable. If something needs to be done, people can rely on me to help. These skills have gotten me very far throughout my experiences. These experiences include clubs, extracurricular activities outside of high school, and different classes. I learned many things through my experiences, such as being an outgoing person, risk-taking, having fun during challenging situations, and being the best version of myself. In conclusion, I want to stick with my goals and have fun experiences while challenging myself. Thank you for reading my About Me, and you may explore the rest of my website.</p>
+        </td>
+        <td style="vertical-align:top; text-align: center;">
+            <h2 style="color:white;">Arshan Avula</h2>
+            <img src="Arshan Avula.jpg" width="300" height="300">
+            <ul>
+                <li>Email: avula0617@mydusd.org</li>
+                <li>Location: Dublin, California</li>
+                <li>Strengths/Qualities: Natural Leader, Cooperative, Team-Player, Responsible, Reliable</li>
+                <li>Clubs: Artificial Intelligence Club, Badminton Club, Hackathon Club, Table Tennis Club</li>
+                <li>Extracurricular Activities & Classes: Swim Team, Math Class, English Tutor</li>
+                <li>Career Goal: Computer Science Major / Business Minor</li>
+            </ul>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
+<script>
+    function projectPage(){
+        location.replace("projectpage.html")
+    }
+    function resumePage(){
+        window.open("Resume.pdf")
+    }
+</script>
